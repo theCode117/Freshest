@@ -1,0 +1,96 @@
+html, body, h1, h2, h3, p, ul, li, a{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-size: 100%;
+    font: inherit;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    margin: 0px auto;
+
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    margin: 10 1000px;
+    position: fixed;
+    top: 15px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: #fff;
+    align-self: flex-start;
+    margin-right: 1000px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    align-self: flex-end;
+    
+}
+.nav li {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    font-size: 105%;
+}
+
+#content {
+    margin: auto;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    color: #fff;
+}
+
+#firstBox {
+    background: url(images/tabletop1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+h1 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 200%;
+    font-family: 'Oswald', sans-serif;;
+}
