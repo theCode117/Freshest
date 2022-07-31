@@ -26,7 +26,7 @@ nav {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid white;
-    margin: 10 1000px;
+    margin: 20px 1000px;
     position: fixed;
     top: 15px;
     padding-bottom: 5px;
@@ -57,7 +57,7 @@ a:hover {
     font-size: 105%;
 }
 
-#content {
+#contentBox {
     margin: auto;
     display: flex;
     list-style: none;
@@ -92,5 +92,84 @@ h1 {
 
 .container p {
     font-size: 200%;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    height: 350px;
+}
+
+.image1 {
+    background: url(images/bread.jpg) center center no-repeat;
+    background-color: #000;
+    background-size: cover;
+    height: 350px;
+    width: 450px;
+    justify-self: flex-start;
+}
+
+.content {
+    background-color: #222;
+    text-align: ;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.words {
+    align-self: center;
+    width: 600px;
+}
+
+#secondBox {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#content1 {
+    justify-self: right;
+    background-color: #111;
+}
+
+#content2 {
+    order: 1;
+}
+
+#content3 {
+   background-color: #444 
+}
+
+.image2 {
+    background: url(images/pineapple.jpg) center center no-repeat;
+    background-color: #000;
+    background-size: cover;
+    height: 350px;
+    width: 440px;
+    justify-self: flex-end;
+    order: 2;
+}
+
+.image3 {
+    background: url(images/pasta.jpg) center center no-repeat;
+    background-color: #000;
+    background-size: cover;
+    height: 350px;
+    width: 440px;
+    justify-self: flex-start;
+    
+}
+
+h3 {
+    font-size: 300%;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    font-family:  'Oswald', sans-serif;
 }
